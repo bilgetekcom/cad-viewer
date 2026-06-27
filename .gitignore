@@ -46,3 +46,37 @@ Thumbs.db
 
 .nx/cache
 .nx/workspace-data
+
+# === yedek-guvenlik (otomatik) ===
+node_modules/
+.pnp.*
+dist/
+build/
+out/
+.next/
+.open-next/
+.vercel/
+.wrangler/
+bin/
+obj/
+.venv/
+venv/
+env/
+.ttsenv/
+python-runtime/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env*example*
+!.env*sample*
+.dev.vars
+*.pem
+*.pfx
+*.p12
+*.key
+*.keystore
+*.jks
+.DS_Store
+Thumbs.db
+*.log
